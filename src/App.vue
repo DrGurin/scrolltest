@@ -1246,7 +1246,7 @@ body{
 
   .steps{
     height: fit-content;
-    width: 100%; 
+    max-width: 100vw; 
     display: block;
   }
   .steps_title{
@@ -1311,6 +1311,9 @@ body{
       width: 100%;
       height: fit-content;
       margin: 10px 0; 
+    }
+    .card_title:nth-child(2n){
+      margin-left: 1500px;
     }
     .card_text{
       font-size: 15px;
@@ -2003,5 +2006,17 @@ body{
 
 // !!!ATENTION!!! THIS IS ANIMATION SETTINGS 
 
+.goodsBlock{
+  border: 10px solid black; 
+  max-width: 100vw; 
+  overflow: hidden;
+}
+.steps{
+  max-width: 100vw;
+  overflow: hidden; 
+}
+.block-input{
+  display: none; 
+}
 
 </style>
